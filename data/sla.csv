@@ -1,0 +1,3 @@
+tier,contact_limit,visit_limit,visit_required,contact_credit,visit_credit,case_cap,station_month_cap
+urgent,180,1800,yes,1200,3400,4000,6500
+regular,900,3600,no,600,0,800,6500

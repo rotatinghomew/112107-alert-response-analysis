@@ -1,0 +1,4 @@
+receipt,call,time_source,kind,observed_at,reported_at
+V1,T2,OPS,contact,2026-03-05T10:08:00,2026-03-05
+V2,T2,OPS,visit,2026-03-05T10:36:00,2026-03-05
+V3,T4,OPS,contact,2026-03-08T08:40:00,2026-03-08

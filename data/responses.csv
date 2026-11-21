@@ -1,4 +1,0 @@
-response_id,signal_id,confirmed_at,resolved_at,team_id,result
-P1,G1,2026-02-15T00:10:00,2026-02-15T00:38:00,T1,contacted
-P2,G4,2026-03-05T11:19:00,2026-03-05T12:02:00,T2,visit
-P3,G4,2026-03-05T11:25:00,,T2,duplicate_confirmation

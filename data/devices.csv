@@ -1,5 +1,0 @@
-device_id,resident_id,valid_from,valid_to,maintenance_from,maintenance_to
-D11,R21,2026-01-01,2026-02-14,,
-D12,R21,2026-02-15,,,
-D21,R22,2026-01-01,,2026-03-02,2026-03-04
-D31,R23,2026-02-01,,,

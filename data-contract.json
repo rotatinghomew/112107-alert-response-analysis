@@ -1,40 +1,88 @@
 {
-  "project": "居家监测运营质量分析",
   "data_is_synthetic": true,
-  "encoding": "UTF-8",
+  "timezone": "Asia/Shanghai",
   "files": {
-    "devices.csv": {
+    "bindings.csv": {
       "columns": [
-        "device_id",
-        "resident_id",
-        "valid_from",
-        "valid_to",
-        "maintenance_from",
-        "maintenance_to"
+        "device",
+        "person",
+        "station",
+        "from",
+        "until"
       ],
-      "row_count": 4
+      "row_count": 3
     },
-    "signals.csv": {
+    "clock_checks.csv": {
       "columns": [
-        "signal_id",
-        "device_id",
-        "observed_at",
-        "received_at",
-        "kind",
-        "value"
+        "calibration",
+        "source",
+        "from",
+        "until",
+        "offset_sec",
+        "margin_sec",
+        "reported_at",
+        "replaces"
       ],
       "row_count": 5
     },
-    "responses.csv": {
+    "calls.csv": {
       "columns": [
-        "response_id",
-        "signal_id",
-        "confirmed_at",
-        "resolved_at",
-        "team_id",
-        "result"
+        "call",
+        "source",
+        "person",
+        "observed_at",
+        "arrived_at",
+        "ref",
+        "tier"
+      ],
+      "row_count": 4
+    },
+    "receipts.csv": {
+      "columns": [
+        "receipt",
+        "call",
+        "time_source",
+        "kind",
+        "observed_at",
+        "reported_at"
       ],
       "row_count": 3
+    },
+    "outage_notices.csv": {
+      "columns": [
+        "notice",
+        "scope",
+        "device",
+        "from",
+        "until",
+        "notified_at",
+        "status"
+      ],
+      "row_count": 3
+    },
+    "manual_review.csv": {
+      "columns": [
+        "review",
+        "recorded_at",
+        "operation",
+        "origin",
+        "related",
+        "evidence"
+      ],
+      "row_count": 2
+    },
+    "sla.csv": {
+      "columns": [
+        "tier",
+        "contact_limit",
+        "visit_limit",
+        "visit_required",
+        "contact_credit",
+        "visit_credit",
+        "case_cap",
+        "station_month_cap"
+      ],
+      "row_count": 2
     }
   }
 }
