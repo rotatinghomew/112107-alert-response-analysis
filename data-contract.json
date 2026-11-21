@@ -1,0 +1,40 @@
+{
+  "project": "居家监测运营质量分析",
+  "data_is_synthetic": true,
+  "encoding": "UTF-8",
+  "files": {
+    "devices.csv": {
+      "columns": [
+        "device_id",
+        "resident_id",
+        "valid_from",
+        "valid_to",
+        "maintenance_from",
+        "maintenance_to"
+      ],
+      "row_count": 4
+    },
+    "signals.csv": {
+      "columns": [
+        "signal_id",
+        "device_id",
+        "observed_at",
+        "received_at",
+        "kind",
+        "value"
+      ],
+      "row_count": 5
+    },
+    "responses.csv": {
+      "columns": [
+        "response_id",
+        "signal_id",
+        "confirmed_at",
+        "resolved_at",
+        "team_id",
+        "result"
+      ],
+      "row_count": 3
+    }
+  }
+}
