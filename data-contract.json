@@ -35,7 +35,7 @@
         "ref",
         "tier"
       ],
-      "row_count": 4
+      "row_count": 6
     },
     "receipts.csv": {
       "columns": [
@@ -46,7 +46,7 @@
         "observed_at",
         "reported_at"
       ],
-      "row_count": 3
+      "row_count": 7
     },
     "outage_notices.csv": {
       "columns": [
@@ -70,6 +70,14 @@
         "evidence"
       ],
       "row_count": 2
+    },
+    "signed_months.csv": {
+      "columns": ["document", "station", "period", "cutoff", "issued_at", "case_credit_total", "applied_credit_total"],
+      "row_count": 1
+    },
+    "signed_obligations.csv": {
+      "columns": ["document", "line", "calls", "kind", "disposition", "case_credit"],
+      "row_count": 8
     },
     "sla.csv": {
       "columns": [

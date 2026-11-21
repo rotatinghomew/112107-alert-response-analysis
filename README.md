@@ -11,6 +11,8 @@
 - `data/outage_notices.csv`：故障工作单和发布给运营台的停服范围；仅指定通道受影响。
 - `data/manual_review.csv`：人工核对回函；有的证据在月结后才到。
 - `data/sla.csv`：时间单位秒，抵扣单位分；应纳入且必须上门的类别由合同载明。
+- `data/signed_months.csv`：历史已发月单。`cutoff` 是月单当时收录凭据的截至时间，金额为分。
+- `data/signed_obligations.csv`：已发月单按原归属记录的义务明细；`case_credit` 是旧台账已计入事件上限、尚未扣减全站月度上限的金额。旧台账归属或金额不一定正确。
 
 ## 环境及检查
 

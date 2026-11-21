@@ -1,0 +1,9 @@
+document,line,calls,kind,disposition,case_credit
+S-031,1,T1;T2,contact,disputed,0
+S-031,2,T1;T2,visit,late,3400
+S-031,3,T3,contact,unverified,0
+S-031,4,T3,visit,unverified,0
+S-031,5,T4,contact,late,600
+S-031,6,T5,contact,late,1200
+S-031,7,T5,visit,late,2800
+S-031,8,T6,contact,late,600
